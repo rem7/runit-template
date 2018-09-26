@@ -1,0 +1,8 @@
+#!/bin/sh
+
+ulimit -Hn 65000
+ulimit -Sn 65000
+
+exec 2>&1
+exec chpst -o 65000 -u USER:GROUP COMMAND
+

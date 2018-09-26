@@ -1,0 +1,5 @@
+# mkdir the logdir and put this file in there, ie /var/log/myapp
+s10485760
+n10
+N5
+t86400
