@@ -20,3 +20,6 @@ update to have `/etc/security/limits.conf`
 * soft nofile 65000
 * hard nofile 65000
 ```
+
+documentation at:
+http://smarden.org/runit/index.html
